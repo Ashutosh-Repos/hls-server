@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.spec.ts",
+    ".env.*",
+    ".git",
+    ".vscode",
+    ".DS_Store",
+    "coverage",
+    ".gitignore"
+  ],
+  "compileOnSave": true
+}

@@ -1,0 +1,52 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript compiled output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables file(s)
+.env
+.env.*.local
+
+# Mac system files
+.DS_Store
+
+# VSCode directory
+.vscode/
+
+# Optional npm cache
+.npm/
+
+# Optional REPL history
+.node_repl_history
+
+# Editor specific files
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage directory (if you add testing)
+coverage/
+
+# Optional lockfiles (if you want to ignore you can uncomment)
+# package-lock.json
+# yarn.lock
+
+# Ignore build output other than dist if used
+build/
+out/
+
+# Ignore compiled JavaScript source maps (optional, if you want)
+*.js.map
